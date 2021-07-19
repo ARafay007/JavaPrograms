@@ -7,6 +7,7 @@ import io.training.inheritance.Teacher;
 import io.training.studentinfo.Student;
 import io.training.singledesignpattern.Singleton;
 import io.training.aggregation.Address;
+import io.training.association.*;
 
 public class Main {
     public static void main(String[] args){
@@ -65,7 +66,10 @@ public class Main {
 
 //        3.2.2. Compose class with Association.
 
+        Nisum nisumObj = new Nisum("NISUM");
+        Person personObj = new Person("Ahmed");
 
+        System.out.println(personObj.getName() + " works at " + nisumObj.getName());
 
 //        4. Abstract class and interface. (difference) interface mulitple inheritance (if both interfaces method same then what is the behaviour, abstract class and interface)
 //        3. Reading Material: https://www.baeldung.com/java-composition-aggregation-association"
