@@ -1,6 +1,9 @@
 package io.training;
 import io.training.aggregation.Employee;
 import io.training.aggregation.Students;
+import io.training.inheritance.Manager;
+import io.training.inheritance.Peon;
+import io.training.inheritance.Teacher;
 import io.training.studentinfo.Student;
 import io.training.singledesignpattern.Singleton;
 import io.training.aggregation.Address;
@@ -34,7 +37,14 @@ public class Main {
 
 //        3. Create an example of Inheritence.
 //        3.1. Inherit a class.
+        Teacher tObj = new Teacher("Kamran", "0345-9238273", "21st Street", "IICT", "Asst: Prof");
+        tObj.showTeacherDetail();
 
+        Manager mObj = new Manager("Rabee", "0352-7761776", "12th Street", "Finance", "Associate Manager");
+        mObj.showHRDetails();
+
+        Peon pObj = new Peon("Yasir", "0342-7678986", "22th Street", "Helper");
+        pObj.showPeonDetails();
 
 //        3.2. Compose a class.
 //
