@@ -1,9 +1,7 @@
 package io.training.inheritance;
 
 public class Employee {
-    String name, contact, address, designation;
-
-//    Employee(){}
+    private String name, contact, address, designation;
 
     Employee(String name, String contact, String address, String designation){
         this.name = name;
@@ -12,7 +10,7 @@ public class Employee {
         this.designation = designation;
     }
 
-    public void showBasicDetail(){
+    protected void showBasicDetail(){
         System.out.print(name + "\n" + contact + "\n" + address + "\n" + designation + "\n");
     }
 }

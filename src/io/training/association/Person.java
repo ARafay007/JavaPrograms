@@ -1,7 +1,7 @@
 package io.training.association;
 
 public class Person {
-    String name;
+    private String name;
 
     public Person(String name){
         this.name = name;

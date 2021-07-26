@@ -1,8 +1,8 @@
 package io.training.aggregation;
 
 public class Employee {
-    String empName, contact;
-    Address address;
+    private String empName, contact;
+    private Address address;
 
     public Employee(String empName, String contact, Address address){
         this.empName = empName;

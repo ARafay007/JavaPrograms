@@ -1,7 +1,7 @@
 package io.training.association;
 
 public class Nisum {
-    String name;
+    private String name;
 
     public Nisum(String name){
         this.name = name;

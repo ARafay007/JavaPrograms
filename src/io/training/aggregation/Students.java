@@ -1,8 +1,8 @@
 package io.training.aggregation;
 
 public class Students{
-    String name;
-    Address address;
+    private String name;
+    private Address address;
 
     public Students(String name, Address address){
         this.name = name;

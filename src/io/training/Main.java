@@ -54,7 +54,7 @@ public class Main {
         Students std = new Students("Rehan", adr);
 
         System.out.println(std.getStdName());
-        System.out.println(std.getStdAdress().streetNum + " " + std.getStdAdress().city + " " + std.getStdAdress().country);
+        System.out.println(std.getStdAdress().getStreetNum() + " " + std.getStdAdress().getcity() + " " + std.getStdAdress().getCountery());
         System.out.println();
 
         adr = new Address(2, "LHR", "PK");
@@ -62,7 +62,7 @@ public class Main {
 
         System.out.println(emp.getEmpName());
         System.out.println(emp.getEmpContact());
-        System.out.println(emp.getEmpAddress().streetNum + " " + emp.getEmpAddress().city + " " + emp.getEmpAddress().country);
+        System.out.println(emp.getEmpAddress().getStreetNum() + " " + emp.getEmpAddress().getcity() + " " + emp.getEmpAddress().getCountery());
 
 //        3.2.2. Compose class with Association.
 
